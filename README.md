@@ -23,6 +23,14 @@ curl -s http://localhost:3000/analizar \
 
 También se puede consultar `GET /health` para comprobar que el servicio está funcionando.
 
+## Rutas disponibles
+
+- `GET /`: muestra el estado general y las rutas disponibles.
+- `GET /health`: comprueba que el servicio esté activo.
+- `POST /analizar`: analiza una conversación y devuelve su clasificación, prioridad, evidencia y derivación humana cuando corresponda.
+
+El endpoint `POST /analizar` recibe un objeto con un `id` y una lista de `mensajes`. Cada mensaje debe indicar si fue escrito por el `lead` o por el `asistente`, además de incluir su texto.
+
 ## Decisiones principales
 
 Usé Gemini para leer la conversación y extraer la información relevante. La respuesta se valida con esquemas de TypeScript y Zod antes de entregarla.
@@ -57,7 +65,7 @@ El procesamiento de las diez conversaciones costó aproximadamente USD 0,075 con
 
 El proyecto incluye `Dockerfile` y `render.yaml` para desplegarlo en Render. El servicio configurado está disponible en:
 
-pendiente...
+[https://leads-analyzer-2vkj.onrender.com](https://leads-analyzer-2vkj.onrender.com)
 
 Para usarlo después del deploy hay que configurar `GEMINI_API_KEY` como variable secreta en Render. El plan gratuito puede suspender el servicio cuando no recibe tráfico, por lo que la primera llamada después de un tiempo puede demorar más de lo normal.
 
