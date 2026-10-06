@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: leads-analyzer
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: GEMINI_MODEL
+        value: gemini-3.6-flash
+      - key: GEMINI_TIMEOUT_MS
+        value: "20000"
+      - key: PORT
+        value: 3000
