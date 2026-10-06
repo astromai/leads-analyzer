@@ -1,0 +1,40 @@
+[
+  {
+    "modelo": "gemini-3.6-flash",
+    "tokens_entrada_total": 4683,
+    "tokens_salida_total": 19166,
+    "costo_total_usd": 0.07538475,
+    "costo_promedio_usd": 0.00753848,
+    "errores": 0,
+    "aserciones_ok": 12,
+    "aserciones_total": 12,
+    "aserciones_fallidas": []
+  },
+  {
+    "modelo": "gemini-3.5-flash-lite",
+    "tokens_entrada_total": 4683,
+    "tokens_salida_total": 3097,
+    "costo_total_usd": 0.0091474,
+    "costo_promedio_usd": 0.00091474,
+    "errores": 0,
+    "aserciones_ok": 11,
+    "aserciones_total": 12,
+    "aserciones_fallidas": [
+      {
+        "nombre": "conv-005: se prioriza como alta",
+        "ok": false
+      }
+    ]
+  },
+  {
+    "modelo": "gemini-3.5-flash",
+    "tokens_entrada_total": 4683,
+    "tokens_salida_total": 20246,
+    "costo_total_usd": 0.1892385,
+    "costo_promedio_usd": 0.01892385,
+    "errores": 0,
+    "aserciones_ok": 12,
+    "aserciones_total": 12,
+    "aserciones_fallidas": []
+  }
+]

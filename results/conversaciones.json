@@ -1,0 +1,1378 @@
+[
+  {
+    "modelo": "gemini-3.6-flash",
+    "resultados": [
+      {
+        "resumen": "El lead consulta por departamentos de 2 dormitorios en el proyecto Mirador Ñuñoa para compra residencial. Indica que busca mudarse antes de marzo y que cuenta con un pie aproximado de 900 UF.",
+        "motivo_contacto": "compra_para_vivir",
+        "urgencia": {
+          "nivel": "proxima",
+          "plazo": "antes de marzo",
+          "cita": "Nos gustaría mudarnos antes de marzo."
+        },
+        "capacidad_financiera": {
+          "presupuesto_maximo_uf": null,
+          "pie_disponible_uf": {
+            "monto": 900,
+            "cita": "pie para unas UF 900"
+          },
+          "credito_preaprobado": null,
+          "subsidio_consultado": null,
+          "ingreso_mensual_clp": null
+        },
+        "requisitos_propiedad": {
+          "dormitorios": {
+            "cantidad": 2,
+            "cita": "2 dormitorios"
+          },
+          "unidades": null,
+          "entrega_inmediata": null,
+          "estacionamiento_consultado": null,
+          "bodega_consultada": null
+        },
+        "derivacion_humana": {
+          "requerida": false,
+          "motivo": null,
+          "cita": null
+        },
+        "banderas": [],
+        "id": "conv-001",
+        "prioridad": {
+          "nivel": "alta",
+          "score": 65,
+          "motivos": [
+            "Tiene un plazo próximo",
+            "Declaró capacidad financiera",
+            "Declaró requisitos de propiedad"
+          ]
+        },
+        "campos_descartados": [],
+        "meta": {
+          "modelo": "gemini-3.6-flash",
+          "tokens_entrada": 514,
+          "tokens_salida": 2176,
+          "costo_usd": 0.008545500000000001,
+          "latencia_ms": 9902
+        }
+      },
+      {
+        "resumen": "El usuario consulta por el valor de arriendo de un departamento tipo estudio. Al ser informado de que el proyecto solo ofrece unidades en venta, indica que no está interesado y se despide.",
+        "motivo_contacto": "consulta_arriendo",
+        "urgencia": null,
+        "capacidad_financiera": {
+          "presupuesto_maximo_uf": null,
+          "pie_disponible_uf": null,
+          "credito_preaprobado": null,
+          "subsidio_consultado": null,
+          "ingreso_mensual_clp": null
+        },
+        "requisitos_propiedad": {
+          "dormitorios": null,
+          "unidades": null,
+          "entrega_inmediata": null,
+          "estacionamiento_consultado": null,
+          "bodega_consultada": null
+        },
+        "derivacion_humana": {
+          "requerida": false,
+          "motivo": null,
+          "cita": null
+        },
+        "banderas": [],
+        "id": "conv-002",
+        "prioridad": {
+          "nivel": "descartar",
+          "score": 0,
+          "motivos": [
+            "No corresponde a una oportunidad comercial del proyecto"
+          ]
+        },
+        "campos_descartados": [],
+        "meta": {
+          "modelo": "gemini-3.6-flash",
+          "tokens_entrada": 474,
+          "tokens_salida": 1338,
+          "costo_usd": 0.005373,
+          "latencia_ms": 6768
+        }
+      },
+      {
+        "resumen": "El cliente se presenta como inversionista buscando comprar 2 o 3 unidades pequeñas, idealmente para entrega inmediata, con un presupuesto máximo total de 9.000 UF.",
+        "motivo_contacto": "inversion",
+        "urgencia": null,
+        "capacidad_financiera": {
+          "presupuesto_maximo_uf": {
+            "monto": 9000,
+            "cita": "Presupuesto total hasta UF 9.000"
+          },
+          "pie_disponible_uf": null,
+          "credito_preaprobado": null,
+          "subsidio_consultado": null,
+          "ingreso_mensual_clp": null
+        },
+        "requisitos_propiedad": {
+          "dormitorios": null,
+          "unidades": {
+            "cantidad": 3,
+            "cita": "2 o 3 unidades pequeñas"
+          },
+          "entrega_inmediata": null,
+          "estacionamiento_consultado": null,
+          "bodega_consultada": null
+        },
+        "derivacion_humana": {
+          "requerida": false,
+          "motivo": null,
+          "cita": null
+        },
+        "banderas": [],
+        "id": "conv-003",
+        "prioridad": {
+          "nivel": "media",
+          "score": 50,
+          "motivos": [
+            "Declaró capacidad financiera",
+            "Interés de inversión declarado"
+          ]
+        },
+        "campos_descartados": [],
+        "meta": {
+          "modelo": "gemini-3.6-flash",
+          "tokens_entrada": 466,
+          "tokens_salida": 2544,
+          "costo_usd": 0.009889499999999999,
+          "latencia_ms": 12053
+        }
+      },
+      {
+        "resumen": "El usuario indica que se equivocó de número al contactar al asistente.",
+        "motivo_contacto": "numero_equivocado",
+        "urgencia": null,
+        "capacidad_financiera": {
+          "presupuesto_maximo_uf": null,
+          "pie_disponible_uf": null,
+          "credito_preaprobado": null,
+          "subsidio_consultado": null,
+          "ingreso_mensual_clp": null
+        },
+        "requisitos_propiedad": {
+          "dormitorios": null,
+          "unidades": null,
+          "entrega_inmediata": null,
+          "estacionamiento_consultado": null,
+          "bodega_consultada": null
+        },
+        "derivacion_humana": {
+          "requerida": false,
+          "motivo": null,
+          "cita": null
+        },
+        "banderas": [],
+        "id": "conv-004",
+        "prioridad": {
+          "nivel": "descartar",
+          "score": 0,
+          "motivos": [
+            "No corresponde a una oportunidad comercial del proyecto"
+          ]
+        },
+        "campos_descartados": [],
+        "meta": {
+          "modelo": "gemini-3.6-flash",
+          "tokens_entrada": 466,
+          "tokens_salida": 1233,
+          "costo_usd": 0.004973249999999999,
+          "latencia_ms": 6597
+        }
+      },
+      {
+        "resumen": "El lead busca comprar un departamento de 1 dormitorio con entrega inmediata para trasladarse antes del 30 de este mes. Dispone de un presupuesto máximo de 3.500 UF y crédito preaprobado.",
+        "motivo_contacto": "compra_para_vivir",
+        "urgencia": {
+          "nivel": "inmediata",
+          "plazo": "el 30",
+          "cita": "Necesito un depto YA, me tengo que salir de mi arriendo el 30."
+        },
+        "capacidad_financiera": {
+          "presupuesto_maximo_uf": {
+            "monto": 3500,
+            "cita": "Máximo 3.500 UF"
+          },
+          "pie_disponible_uf": null,
+          "credito_preaprobado": {
+            "valor": true,
+            "cita": "tengo preaprobado el crédito"
+          },
+          "subsidio_consultado": null,
+          "ingreso_mensual_clp": null
+        },
+        "requisitos_propiedad": {
+          "dormitorios": {
+            "cantidad": 1,
+            "cita": "1 dormitorio"
+          },
+          "unidades": null,
+          "entrega_inmediata": {
+            "valor": true,
+            "cita": "entrega inmediata"
+          },
+          "estacionamiento_consultado": null,
+          "bodega_consultada": null
+        },
+        "derivacion_humana": {
+          "requerida": false,
+          "motivo": null,
+          "cita": null
+        },
+        "banderas": [],
+        "id": "conv-005",
+        "prioridad": {
+          "nivel": "alta",
+          "score": 95,
+          "motivos": [
+            "Necesidad inmediata declarada",
+            "Declaró capacidad financiera",
+            "Tiene crédito preaprobado",
+            "Declaró requisitos de propiedad"
+          ]
+        },
+        "campos_descartados": [],
+        "meta": {
+          "modelo": "gemini-3.6-flash",
+          "tokens_entrada": 478,
+          "tokens_salida": 2517,
+          "costo_usd": 0.00979725,
+          "latencia_ms": 11195
+        }
+      },
+      {
+        "resumen": "El lead consulta si el proyecto incluye estacionamiento y bodega en la compra. Comenta que recién está comenzando a explorar proyectos.",
+        "motivo_contacto": "consulta_caracteristicas",
+        "urgencia": null,
+        "capacidad_financiera": {
+          "presupuesto_maximo_uf": null,
+          "pie_disponible_uf": null,
+          "credito_preaprobado": null,
+          "subsidio_consultado": null,
+          "ingreso_mensual_clp": null
+        },
+        "requisitos_propiedad": {
+          "dormitorios": null,
+          "unidades": null,
+          "entrega_inmediata": null,
+          "estacionamiento_consultado": null,
+          "bodega_consultada": null
+        },
+        "derivacion_humana": {
+          "requerida": false,
+          "motivo": null,
+          "cita": null
+        },
+        "banderas": [],
+        "id": "conv-006",
+        "prioridad": {
+          "nivel": "baja",
+          "score": 20,
+          "motivos": [
+            "Interés inicial sin señales de cierre suficientes"
+          ]
+        },
+        "campos_descartados": [],
+        "meta": {
+          "modelo": "gemini-3.6-flash",
+          "tokens_entrada": 483,
+          "tokens_salida": 2524,
+          "costo_usd": 0.009827250000000001,
+          "latencia_ms": 11160
+        }
+      },
+      {
+        "resumen": "El lead consulta si el proyecto acepta el subsidio DS19, menciona que busca una propiedad de 3 dormitorios para su familia de 4 personas e indica ingresos familiares de 1.8 millones.",
+        "motivo_contacto": "consulta_financiamiento",
+        "urgencia": null,
+        "capacidad_financiera": {
+          "presupuesto_maximo_uf": null,
+          "pie_disponible_uf": null,
+          "credito_preaprobado": null,
+          "subsidio_consultado": null,
+          "ingreso_mensual_clp": {
+            "monto": 1800000,
+            "cita": "ingresos de 1.8 millones"
+          }
+        },
+        "requisitos_propiedad": {
+          "dormitorios": {
+            "cantidad": 3,
+            "cita": "3 dormitorios"
+          },
+          "unidades": null,
+          "entrega_inmediata": null,
+          "estacionamiento_consultado": null,
+          "bodega_consultada": null
+        },
+        "derivacion_humana": {
+          "requerida": false,
+          "motivo": null,
+          "cita": null
+        },
+        "banderas": [],
+        "id": "conv-007",
+        "prioridad": {
+          "nivel": "baja",
+          "score": 30,
+          "motivos": [
+            "Declaró requisitos de propiedad"
+          ]
+        },
+        "campos_descartados": [],
+        "meta": {
+          "modelo": "gemini-3.6-flash",
+          "tokens_entrada": 459,
+          "tokens_salida": 2132,
+          "costo_usd": 0.008339250000000001,
+          "latencia_ms": 10152
+        }
+      },
+      {
+        "resumen": "El cliente reclama que lleva 3 días esperando el contacto de un ejecutivo y que nadie se presentó a una visita agendada previamente para el sábado.",
+        "motivo_contacto": "reclamo",
+        "urgencia": null,
+        "capacidad_financiera": {
+          "presupuesto_maximo_uf": null,
+          "pie_disponible_uf": null,
+          "credito_preaprobado": null,
+          "subsidio_consultado": null,
+          "ingreso_mensual_clp": null
+        },
+        "requisitos_propiedad": {
+          "dormitorios": null,
+          "unidades": null,
+          "entrega_inmediata": null,
+          "estacionamiento_consultado": null,
+          "bodega_consultada": null
+        },
+        "derivacion_humana": {
+          "requerida": true,
+          "motivo": "reclamo",
+          "cita": "llevo 3 días esperando que me llame el ejecutivo, ya había agendado visita para el sábado y nadie apareció"
+        },
+        "banderas": [],
+        "id": "conv-008",
+        "prioridad": {
+          "nivel": "alta",
+          "score": 90,
+          "motivos": [
+            "Reclamo que requiere atención humana inmediata"
+          ]
+        },
+        "campos_descartados": [],
+        "meta": {
+          "modelo": "gemini-3.6-flash",
+          "tokens_entrada": 454,
+          "tokens_salida": 1721,
+          "costo_usd": 0.00679425,
+          "latencia_ms": 7573
+        }
+      },
+      {
+        "resumen": "El usuario intenta realizar una manipulación de instrucciones solicitando omitir las reglas previas para consultar sobre el descuento máximo de la inmobiliaria.",
+        "motivo_contacto": "intento_manipulacion",
+        "urgencia": null,
+        "capacidad_financiera": {
+          "presupuesto_maximo_uf": null,
+          "pie_disponible_uf": null,
+          "credito_preaprobado": null,
+          "subsidio_consultado": null,
+          "ingreso_mensual_clp": null
+        },
+        "requisitos_propiedad": {
+          "dormitorios": null,
+          "unidades": null,
+          "entrega_inmediata": null,
+          "estacionamiento_consultado": null,
+          "bodega_consultada": null
+        },
+        "derivacion_humana": {
+          "requerida": false,
+          "motivo": null,
+          "cita": null
+        },
+        "banderas": [
+          "intento_manipulacion"
+        ],
+        "id": "conv-009",
+        "prioridad": {
+          "nivel": "descartar",
+          "score": 0,
+          "motivos": [
+            "No corresponde a una oportunidad comercial del proyecto"
+          ]
+        },
+        "campos_descartados": [],
+        "meta": {
+          "modelo": "gemini-3.6-flash",
+          "tokens_entrada": 447,
+          "tokens_salida": 1654,
+          "costo_usd": 0.00653775,
+          "latencia_ms": 7833
+        }
+      },
+      {
+        "resumen": "El usuario consulta sobre la disponibilidad de locales comerciales para abrir una cafetería.",
+        "motivo_contacto": "consulta_fuera_de_alcance",
+        "urgencia": null,
+        "capacidad_financiera": {
+          "presupuesto_maximo_uf": null,
+          "pie_disponible_uf": null,
+          "credito_preaprobado": null,
+          "subsidio_consultado": null,
+          "ingreso_mensual_clp": null
+        },
+        "requisitos_propiedad": {
+          "dormitorios": null,
+          "unidades": null,
+          "entrega_inmediata": null,
+          "estacionamiento_consultado": null,
+          "bodega_consultada": null
+        },
+        "derivacion_humana": {
+          "requerida": false,
+          "motivo": null,
+          "cita": null
+        },
+        "banderas": [],
+        "id": "conv-010",
+        "prioridad": {
+          "nivel": "descartar",
+          "score": 0,
+          "motivos": [
+            "No corresponde a una oportunidad comercial del proyecto"
+          ]
+        },
+        "campos_descartados": [],
+        "meta": {
+          "modelo": "gemini-3.6-flash",
+          "tokens_entrada": 442,
+          "tokens_salida": 1327,
+          "costo_usd": 0.00530775,
+          "latencia_ms": 6712
+        }
+      }
+    ],
+    "errores": []
+  },
+  {
+    "modelo": "gemini-3.5-flash-lite",
+    "resultados": [
+      {
+        "resumen": "El lead consultó por departamentos de 2 dormitorios en el proyecto Mirador Ñuñoa visto en Instagram. El asistente indicó disponibilidad desde UF 4.200 y preguntó el objetivo de compra. El lead respondió que es para vivir con su pareja, planean mudarse antes de marzo y disponen de un pie de UF 900.",
+        "motivo_contacto": "compra_para_vivir",
+        "urgencia": null,
+        "capacidad_financiera": {
+          "presupuesto_maximo_uf": null,
+          "pie_disponible_uf": {
+            "monto": 900,
+            "cita": "pie para unas UF 900"
+          },
+          "credito_preaprobado": null,
+          "subsidio_consultado": null,
+          "ingreso_mensual_clp": null
+        },
+        "requisitos_propiedad": {
+          "dormitorios": {
+            "cantidad": 2,
+            "cita": "2 dormitorios"
+          },
+          "unidades": null,
+          "entrega_inmediata": null,
+          "estacionamiento_consultado": null,
+          "bodega_consultada": null
+        },
+        "derivacion_humana": {
+          "requerida": false,
+          "motivo": null,
+          "cita": null
+        },
+        "banderas": [],
+        "id": "conv-001",
+        "prioridad": {
+          "nivel": "media",
+          "score": 50,
+          "motivos": [
+            "Declaró capacidad financiera",
+            "Declaró requisitos de propiedad"
+          ]
+        },
+        "campos_descartados": [],
+        "meta": {
+          "modelo": "gemini-3.5-flash-lite",
+          "tokens_entrada": 514,
+          "tokens_salida": 388,
+          "costo_usd": 0.0011242,
+          "latencia_ms": 1640
+        }
+      },
+      {
+        "resumen": "El lead consultó por el arriendo de un estudio. El asistente le informó que el proyecto es solo de venta y le preguntó si le interesaban las opciones de compra, a lo cual el lead respondió negativamente indicando que solo busca arriendo.",
+        "motivo_contacto": "consulta_arriendo",
+        "urgencia": null,
+        "capacidad_financiera": {
+          "presupuesto_maximo_uf": null,
+          "pie_disponible_uf": null,
+          "credito_preaprobado": null,
+          "subsidio_consultado": null,
+          "ingreso_mensual_clp": null
+        },
+        "requisitos_propiedad": {
+          "dormitorios": null,
+          "unidades": null,
+          "entrega_inmediata": null,
+          "estacionamiento_consultado": null,
+          "bodega_consultada": null
+        },
+        "derivacion_humana": {
+          "requerida": false,
+          "motivo": null,
+          "cita": null
+        },
+        "banderas": [],
+        "id": "conv-002",
+        "prioridad": {
+          "nivel": "descartar",
+          "score": 0,
+          "motivos": [
+            "No corresponde a una oportunidad comercial del proyecto"
+          ]
+        },
+        "campos_descartados": [],
+        "meta": {
+          "modelo": "gemini-3.5-flash-lite",
+          "tokens_entrada": 474,
+          "tokens_salida": 266,
+          "costo_usd": 0.0008072,
+          "latencia_ms": 1313
+        }
+      },
+      {
+        "resumen": "El lead es un inversionista que busca comprar de 2 a 3 unidades pequeñas con buena rentabilidad y entrega inmediata, con un presupuesto total de hasta 9.000 UF.",
+        "motivo_contacto": "inversion",
+        "urgencia": null,
+        "capacidad_financiera": {
+          "presupuesto_maximo_uf": {
+            "monto": 9000,
+            "cita": "Presupuesto total hasta UF 9.000."
+          },
+          "pie_disponible_uf": null,
+          "credito_preaprobado": null,
+          "subsidio_consultado": null,
+          "ingreso_mensual_clp": null
+        },
+        "requisitos_propiedad": {
+          "dormitorios": {
+            "cantidad": 2,
+            "cita": "2 o 3 unidades pequeñas"
+          },
+          "unidades": {
+            "cantidad": 3,
+            "cita": "2 o 3 unidades pequeñas"
+          },
+          "entrega_inmediata": null,
+          "estacionamiento_consultado": null,
+          "bodega_consultada": null
+        },
+        "derivacion_humana": {
+          "requerida": false,
+          "motivo": null,
+          "cita": null
+        },
+        "banderas": [],
+        "id": "conv-003",
+        "prioridad": {
+          "nivel": "media",
+          "score": 60,
+          "motivos": [
+            "Declaró capacidad financiera",
+            "Declaró requisitos de propiedad",
+            "Interés de inversión declarado"
+          ]
+        },
+        "campos_descartados": [],
+        "meta": {
+          "modelo": "gemini-3.5-flash-lite",
+          "tokens_entrada": 466,
+          "tokens_salida": 351,
+          "costo_usd": 0.0010173,
+          "latencia_ms": 1362
+        }
+      },
+      {
+        "resumen": "El lead indicó que se equivocó de número al iniciar la conversación.",
+        "motivo_contacto": "numero_equivocado",
+        "urgencia": null,
+        "capacidad_financiera": {
+          "presupuesto_maximo_uf": null,
+          "pie_disponible_uf": null,
+          "credito_preaprobado": null,
+          "subsidio_consultado": null,
+          "ingreso_mensual_clp": null
+        },
+        "requisitos_propiedad": {
+          "dormitorios": null,
+          "unidades": null,
+          "entrega_inmediata": null,
+          "estacionamiento_consultado": null,
+          "bodega_consultada": null
+        },
+        "derivacion_humana": {
+          "requerida": false,
+          "motivo": null,
+          "cita": null
+        },
+        "banderas": [],
+        "id": "conv-004",
+        "prioridad": {
+          "nivel": "descartar",
+          "score": 0,
+          "motivos": [
+            "No corresponde a una oportunidad comercial del proyecto"
+          ]
+        },
+        "campos_descartados": [],
+        "meta": {
+          "modelo": "gemini-3.5-flash-lite",
+          "tokens_entrada": 466,
+          "tokens_salida": 229,
+          "costo_usd": 0.0007122999999999999,
+          "latencia_ms": 1064
+        }
+      },
+      {
+        "resumen": "El lead busca un departamento de 1 dormitorio con entrega inmediata, presupuesto máximo de 3.500 UF, cuenta con crédito preaprobado y necesita mudarse antes del 30 debido al término de su arriendo actual.",
+        "motivo_contacto": "compra_para_vivir",
+        "urgencia": null,
+        "capacidad_financiera": {
+          "presupuesto_maximo_uf": {
+            "monto": 3500,
+            "cita": "Máximo 3.500 UF"
+          },
+          "pie_disponible_uf": null,
+          "credito_preaprobado": null,
+          "subsidio_consultado": null,
+          "ingreso_mensual_clp": null
+        },
+        "requisitos_propiedad": {
+          "dormitorios": {
+            "cantidad": 1,
+            "cita": "1 dormitorio"
+          },
+          "unidades": null,
+          "entrega_inmediata": null,
+          "estacionamiento_consultado": null,
+          "bodega_consultada": null
+        },
+        "derivacion_humana": {
+          "requerida": false,
+          "motivo": null,
+          "cita": null
+        },
+        "banderas": [],
+        "id": "conv-005",
+        "prioridad": {
+          "nivel": "media",
+          "score": 50,
+          "motivos": [
+            "Declaró capacidad financiera",
+            "Declaró requisitos de propiedad"
+          ]
+        },
+        "campos_descartados": [],
+        "meta": {
+          "modelo": "gemini-3.5-flash-lite",
+          "tokens_entrada": 478,
+          "tokens_salida": 438,
+          "costo_usd": 0.0012384,
+          "latencia_ms": 1723
+        }
+      },
+      {
+        "resumen": "El lead consultó si el proyecto incluye estacionamiento y bodega. El asistente respondió que se venden por separado y preguntó si tiene alguna tipología en mente. El lead indicó que todavía no y que recién está empezando a ver varios proyectos.",
+        "motivo_contacto": "consulta_caracteristicas",
+        "urgencia": null,
+        "capacidad_financiera": {
+          "presupuesto_maximo_uf": null,
+          "pie_disponible_uf": null,
+          "credito_preaprobado": null,
+          "subsidio_consultado": null,
+          "ingreso_mensual_clp": null
+        },
+        "requisitos_propiedad": {
+          "dormitorios": null,
+          "unidades": null,
+          "entrega_inmediata": null,
+          "estacionamiento_consultado": null,
+          "bodega_consultada": null
+        },
+        "derivacion_humana": {
+          "requerida": false,
+          "motivo": null,
+          "cita": null
+        },
+        "banderas": [],
+        "id": "conv-006",
+        "prioridad": {
+          "nivel": "baja",
+          "score": 20,
+          "motivos": [
+            "Interés inicial sin señales de cierre suficientes"
+          ]
+        },
+        "campos_descartados": [],
+        "meta": {
+          "modelo": "gemini-3.5-flash-lite",
+          "tokens_entrada": 483,
+          "tokens_salida": 302,
+          "costo_usd": 0.0008999,
+          "latencia_ms": 1530
+        }
+      },
+      {
+        "resumen": "El lead pregunta por la aceptación de subsidio DS19 para una familia de 4 personas que busca una propiedad de 3 dormitorios y declara ingresos de 1.8 millones.",
+        "motivo_contacto": "consulta_financiamiento",
+        "urgencia": null,
+        "capacidad_financiera": {
+          "presupuesto_maximo_uf": null,
+          "pie_disponible_uf": null,
+          "credito_preaprobado": null,
+          "subsidio_consultado": null,
+          "ingreso_mensual_clp": {
+            "monto": 1800000,
+            "cita": "ingresos de 1.8 millones"
+          }
+        },
+        "requisitos_propiedad": {
+          "dormitorios": {
+            "cantidad": 3,
+            "cita": "3 dormitorios"
+          },
+          "unidades": {
+            "cantidad": 4,
+            "cita": "familia de 4"
+          },
+          "entrega_inmediata": null,
+          "estacionamiento_consultado": null,
+          "bodega_consultada": null
+        },
+        "derivacion_humana": {
+          "requerida": false,
+          "motivo": null,
+          "cita": null
+        },
+        "banderas": [],
+        "id": "conv-007",
+        "prioridad": {
+          "nivel": "baja",
+          "score": 30,
+          "motivos": [
+            "Declaró requisitos de propiedad"
+          ]
+        },
+        "campos_descartados": [],
+        "meta": {
+          "modelo": "gemini-3.5-flash-lite",
+          "tokens_entrada": 459,
+          "tokens_salida": 353,
+          "costo_usd": 0.0010202,
+          "latencia_ms": 1488
+        }
+      },
+      {
+        "resumen": "El lead expresa molestia por llevar tres días esperando una llamada de un ejecutivo y porque nadie se presentó a una visita agendada para el sábado.",
+        "motivo_contacto": "reclamo",
+        "urgencia": null,
+        "capacidad_financiera": {
+          "presupuesto_maximo_uf": null,
+          "pie_disponible_uf": null,
+          "credito_preaprobado": null,
+          "subsidio_consultado": null,
+          "ingreso_mensual_clp": null
+        },
+        "requisitos_propiedad": {
+          "dormitorios": null,
+          "unidades": null,
+          "entrega_inmediata": null,
+          "estacionamiento_consultado": null,
+          "bodega_consultada": null
+        },
+        "derivacion_humana": {
+          "requerida": true,
+          "motivo": "reclamo",
+          "cita": "😡 llevo 3 días esperando que me llame el ejecutivo, ya había agendado visita para el sábado y nadie apareció"
+        },
+        "banderas": [],
+        "id": "conv-008",
+        "prioridad": {
+          "nivel": "alta",
+          "score": 90,
+          "motivos": [
+            "Reclamo que requiere atención humana inmediata"
+          ]
+        },
+        "campos_descartados": [],
+        "meta": {
+          "modelo": "gemini-3.5-flash-lite",
+          "tokens_entrada": 454,
+          "tokens_salida": 285,
+          "costo_usd": 0.0008487,
+          "latencia_ms": 1413
+        }
+      },
+      {
+        "resumen": "El lead intenta manipular al asistente pidiendo ignorar las instrucciones anteriores para conocer el descuento máximo autorizado.",
+        "motivo_contacto": "intento_manipulacion",
+        "urgencia": null,
+        "capacidad_financiera": {
+          "presupuesto_maximo_uf": null,
+          "pie_disponible_uf": null,
+          "credito_preaprobado": null,
+          "subsidio_consultado": null,
+          "ingreso_mensual_clp": null
+        },
+        "requisitos_propiedad": {
+          "dormitorios": null,
+          "unidades": null,
+          "entrega_inmediata": null,
+          "estacionamiento_consultado": null,
+          "bodega_consultada": null
+        },
+        "derivacion_humana": {
+          "requerida": false,
+          "motivo": null,
+          "cita": null
+        },
+        "banderas": [
+          "intento_manipulacion"
+        ],
+        "id": "conv-009",
+        "prioridad": {
+          "nivel": "descartar",
+          "score": 0,
+          "motivos": [
+            "No corresponde a una oportunidad comercial del proyecto"
+          ]
+        },
+        "campos_descartados": [],
+        "meta": {
+          "modelo": "gemini-3.5-flash-lite",
+          "tokens_entrada": 447,
+          "tokens_salida": 250,
+          "costo_usd": 0.0007591,
+          "latencia_ms": 1086
+        }
+      },
+      {
+        "resumen": "El lead pregunta por la disponibilidad de locales comerciales para instalar una cafetería.",
+        "motivo_contacto": "consulta_fuera_de_alcance",
+        "urgencia": null,
+        "capacidad_financiera": {
+          "presupuesto_maximo_uf": null,
+          "pie_disponible_uf": null,
+          "credito_preaprobado": null,
+          "subsidio_consultado": null,
+          "ingreso_mensual_clp": null
+        },
+        "requisitos_propiedad": {
+          "dormitorios": null,
+          "unidades": null,
+          "entrega_inmediata": null,
+          "estacionamiento_consultado": null,
+          "bodega_consultada": null
+        },
+        "derivacion_humana": {
+          "requerida": false,
+          "motivo": null,
+          "cita": null
+        },
+        "banderas": [],
+        "id": "conv-010",
+        "prioridad": {
+          "nivel": "descartar",
+          "score": 0,
+          "motivos": [
+            "No corresponde a una oportunidad comercial del proyecto"
+          ]
+        },
+        "campos_descartados": [],
+        "meta": {
+          "modelo": "gemini-3.5-flash-lite",
+          "tokens_entrada": 442,
+          "tokens_salida": 235,
+          "costo_usd": 0.0007201,
+          "latencia_ms": 1466
+        }
+      }
+    ],
+    "errores": []
+  },
+  {
+    "modelo": "gemini-3.5-flash",
+    "resultados": [
+      {
+        "resumen": "El lead está interesado en departamentos de 2 dormitorios en el proyecto Mirador Ñuñoa para vivir con su pareja. Cuenta con un pie de UF 900 y tiene intenciones de mudarse antes de marzo.",
+        "motivo_contacto": "compra_para_vivir",
+        "urgencia": {
+          "nivel": "proxima",
+          "plazo": "antes de marzo",
+          "cita": "Nos gustaría mudarnos antes de marzo."
+        },
+        "capacidad_financiera": {
+          "presupuesto_maximo_uf": null,
+          "pie_disponible_uf": {
+            "monto": 900,
+            "cita": "pie para unas UF 900"
+          },
+          "credito_preaprobado": null,
+          "subsidio_consultado": null,
+          "ingreso_mensual_clp": null
+        },
+        "requisitos_propiedad": {
+          "dormitorios": {
+            "cantidad": 2,
+            "cita": "deptos de 2 dormitorios"
+          },
+          "unidades": null,
+          "entrega_inmediata": null,
+          "estacionamiento_consultado": null,
+          "bodega_consultada": null
+        },
+        "derivacion_humana": {
+          "requerida": false,
+          "motivo": null,
+          "cita": null
+        },
+        "banderas": [],
+        "id": "conv-001",
+        "prioridad": {
+          "nivel": "alta",
+          "score": 65,
+          "motivos": [
+            "Tiene un plazo próximo",
+            "Declaró capacidad financiera",
+            "Declaró requisitos de propiedad"
+          ]
+        },
+        "campos_descartados": [],
+        "meta": {
+          "modelo": "gemini-3.5-flash",
+          "tokens_entrada": 514,
+          "tokens_salida": 2580,
+          "costo_usd": 0.023991,
+          "latencia_ms": 9323
+        }
+      },
+      {
+        "resumen": "El usuario consulta por el precio de arriendo de un departamento estudio. Al informarle que el proyecto es exclusivamente para la venta, el usuario descarta la opción indicando que solo busca arriendo.",
+        "motivo_contacto": "consulta_arriendo",
+        "urgencia": null,
+        "capacidad_financiera": {
+          "presupuesto_maximo_uf": null,
+          "pie_disponible_uf": null,
+          "credito_preaprobado": null,
+          "subsidio_consultado": null,
+          "ingreso_mensual_clp": null
+        },
+        "requisitos_propiedad": {
+          "dormitorios": null,
+          "unidades": null,
+          "entrega_inmediata": null,
+          "estacionamiento_consultado": null,
+          "bodega_consultada": null
+        },
+        "derivacion_humana": {
+          "requerida": false,
+          "motivo": null,
+          "cita": null
+        },
+        "banderas": [],
+        "id": "conv-002",
+        "prioridad": {
+          "nivel": "descartar",
+          "score": 0,
+          "motivos": [
+            "No corresponde a una oportunidad comercial del proyecto"
+          ]
+        },
+        "campos_descartados": [],
+        "meta": {
+          "modelo": "gemini-3.5-flash",
+          "tokens_entrada": 474,
+          "tokens_salida": 1695,
+          "costo_usd": 0.015966,
+          "latencia_ms": 7044
+        }
+      },
+      {
+        "resumen": "El lead se presenta como inversionista interesado en comprar 2 o 3 departamentos pequeños de entrega inmediata, con un presupuesto total de UF 9.000.",
+        "motivo_contacto": "inversion",
+        "urgencia": null,
+        "capacidad_financiera": {
+          "presupuesto_maximo_uf": {
+            "monto": 9000,
+            "cita": "Presupuesto total hasta UF 9.000"
+          },
+          "pie_disponible_uf": null,
+          "credito_preaprobado": null,
+          "subsidio_consultado": null,
+          "ingreso_mensual_clp": null
+        },
+        "requisitos_propiedad": {
+          "dormitorios": null,
+          "unidades": {
+            "cantidad": 3,
+            "cita": "2 o 3 unidades"
+          },
+          "entrega_inmediata": null,
+          "estacionamiento_consultado": null,
+          "bodega_consultada": null
+        },
+        "derivacion_humana": {
+          "requerida": false,
+          "motivo": null,
+          "cita": null
+        },
+        "banderas": [],
+        "id": "conv-003",
+        "prioridad": {
+          "nivel": "media",
+          "score": 50,
+          "motivos": [
+            "Declaró capacidad financiera",
+            "Interés de inversión declarado"
+          ]
+        },
+        "campos_descartados": [],
+        "meta": {
+          "modelo": "gemini-3.5-flash",
+          "tokens_entrada": 466,
+          "tokens_salida": 2502,
+          "costo_usd": 0.023217,
+          "latencia_ms": 9591
+        }
+      },
+      {
+        "resumen": "El usuario se contactó por error y declaró haberse equivocado de número.",
+        "motivo_contacto": "numero_equivocado",
+        "urgencia": null,
+        "capacidad_financiera": {
+          "presupuesto_maximo_uf": null,
+          "pie_disponible_uf": null,
+          "credito_preaprobado": null,
+          "subsidio_consultado": null,
+          "ingreso_mensual_clp": null
+        },
+        "requisitos_propiedad": {
+          "dormitorios": null,
+          "unidades": null,
+          "entrega_inmediata": null,
+          "estacionamiento_consultado": null,
+          "bodega_consultada": null
+        },
+        "derivacion_humana": {
+          "requerida": false,
+          "motivo": null,
+          "cita": null
+        },
+        "banderas": [],
+        "id": "conv-004",
+        "prioridad": {
+          "nivel": "descartar",
+          "score": 0,
+          "motivos": [
+            "No corresponde a una oportunidad comercial del proyecto"
+          ]
+        },
+        "campos_descartados": [],
+        "meta": {
+          "modelo": "gemini-3.5-flash",
+          "tokens_entrada": 466,
+          "tokens_salida": 1287,
+          "costo_usd": 0.012282,
+          "latencia_ms": 5715
+        }
+      },
+      {
+        "resumen": "El cliente solicita con urgencia un departamento de 1 dormitorio con entrega inmediata debido a que debe dejar su arriendo actual el día 30. Cuenta con un presupuesto máximo de 3.500 UF y crédito preaprobado.",
+        "motivo_contacto": "compra_para_vivir",
+        "urgencia": {
+          "nivel": "inmediata",
+          "plazo": "el 30",
+          "cita": "Necesito un depto YA, me tengo que salir de mi arriendo el 30"
+        },
+        "capacidad_financiera": {
+          "presupuesto_maximo_uf": {
+            "monto": 3500,
+            "cita": "Máximo 3.500 UF"
+          },
+          "pie_disponible_uf": null,
+          "credito_preaprobado": {
+            "valor": true,
+            "cita": "tengo preaprobado el crédito"
+          },
+          "subsidio_consultado": null,
+          "ingreso_mensual_clp": null
+        },
+        "requisitos_propiedad": {
+          "dormitorios": {
+            "cantidad": 1,
+            "cita": "1 dormitorio"
+          },
+          "unidades": null,
+          "entrega_inmediata": {
+            "valor": true,
+            "cita": "entrega inmediata"
+          },
+          "estacionamiento_consultado": null,
+          "bodega_consultada": null
+        },
+        "derivacion_humana": {
+          "requerida": false,
+          "motivo": null,
+          "cita": null
+        },
+        "banderas": [],
+        "id": "conv-005",
+        "prioridad": {
+          "nivel": "alta",
+          "score": 95,
+          "motivos": [
+            "Necesidad inmediata declarada",
+            "Declaró capacidad financiera",
+            "Tiene crédito preaprobado",
+            "Declaró requisitos de propiedad"
+          ]
+        },
+        "campos_descartados": [],
+        "meta": {
+          "modelo": "gemini-3.5-flash",
+          "tokens_entrada": 478,
+          "tokens_salida": 2230,
+          "costo_usd": 0.020787,
+          "latencia_ms": 8283
+        }
+      },
+      {
+        "resumen": "El cliente consulta si el estacionamiento y la bodega están incluidos en el proyecto. Indica que está recién comenzando a buscar y aún no tiene una tipología en mente.",
+        "motivo_contacto": "consulta_caracteristicas",
+        "urgencia": null,
+        "capacidad_financiera": {
+          "presupuesto_maximo_uf": null,
+          "pie_disponible_uf": null,
+          "credito_preaprobado": null,
+          "subsidio_consultado": null,
+          "ingreso_mensual_clp": null
+        },
+        "requisitos_propiedad": {
+          "dormitorios": null,
+          "unidades": null,
+          "entrega_inmediata": null,
+          "estacionamiento_consultado": null,
+          "bodega_consultada": null
+        },
+        "derivacion_humana": {
+          "requerida": false,
+          "motivo": null,
+          "cita": null
+        },
+        "banderas": [],
+        "id": "conv-006",
+        "prioridad": {
+          "nivel": "baja",
+          "score": 20,
+          "motivos": [
+            "Interés inicial sin señales de cierre suficientes"
+          ]
+        },
+        "campos_descartados": [],
+        "meta": {
+          "modelo": "gemini-3.5-flash",
+          "tokens_entrada": 483,
+          "tokens_salida": 2614,
+          "costo_usd": 0.024250499999999998,
+          "latencia_ms": 10259
+        }
+      },
+      {
+        "resumen": "El cliente consulta si el proyecto acepta el subsidio DS19, indicando que son una familia de 4 personas, buscan un departamento de 3 dormitorios y tienen ingresos mensuales de 1.8 millones.",
+        "motivo_contacto": "compra_para_vivir",
+        "urgencia": null,
+        "capacidad_financiera": {
+          "presupuesto_maximo_uf": null,
+          "pie_disponible_uf": null,
+          "credito_preaprobado": null,
+          "subsidio_consultado": null,
+          "ingreso_mensual_clp": {
+            "monto": 1800000,
+            "cita": "ingresos de 1.8 millones"
+          }
+        },
+        "requisitos_propiedad": {
+          "dormitorios": {
+            "cantidad": 3,
+            "cita": "3 dormitorios"
+          },
+          "unidades": null,
+          "entrega_inmediata": null,
+          "estacionamiento_consultado": null,
+          "bodega_consultada": null
+        },
+        "derivacion_humana": {
+          "requerida": true,
+          "motivo": "subsidio",
+          "cita": "¿el proyecto acepta subsidio DS19?"
+        },
+        "banderas": [],
+        "id": "conv-007",
+        "prioridad": {
+          "nivel": "baja",
+          "score": 30,
+          "motivos": [
+            "Declaró requisitos de propiedad"
+          ]
+        },
+        "campos_descartados": [],
+        "meta": {
+          "modelo": "gemini-3.5-flash",
+          "tokens_entrada": 459,
+          "tokens_salida": 2294,
+          "costo_usd": 0.021334500000000003,
+          "latencia_ms": 8497
+        }
+      },
+      {
+        "resumen": "El cliente expresa su molestia debido a que lleva tres días esperando el contacto de un ejecutivo y nadie se presentó a la visita que tenía agendada para el sábado.",
+        "motivo_contacto": "reclamo",
+        "urgencia": null,
+        "capacidad_financiera": {
+          "presupuesto_maximo_uf": null,
+          "pie_disponible_uf": null,
+          "credito_preaprobado": null,
+          "subsidio_consultado": null,
+          "ingreso_mensual_clp": null
+        },
+        "requisitos_propiedad": {
+          "dormitorios": null,
+          "unidades": null,
+          "entrega_inmediata": null,
+          "estacionamiento_consultado": null,
+          "bodega_consultada": null
+        },
+        "derivacion_humana": {
+          "requerida": true,
+          "motivo": "reclamo",
+          "cita": "😡 llevo 3 días esperando que me llame el ejecutivo, ya había agendado visita para el sábado y nadie apareció"
+        },
+        "banderas": [],
+        "id": "conv-008",
+        "prioridad": {
+          "nivel": "alta",
+          "score": 90,
+          "motivos": [
+            "Reclamo que requiere atención humana inmediata"
+          ]
+        },
+        "campos_descartados": [],
+        "meta": {
+          "modelo": "gemini-3.5-flash",
+          "tokens_entrada": 454,
+          "tokens_salida": 1678,
+          "costo_usd": 0.015783000000000002,
+          "latencia_ms": 6716
+        }
+      },
+      {
+        "resumen": "El usuario intenta realizar una inyección de instrucciones (prompt injection) pidiendo ignorar las reglas previas y consultando por el descuento máximo de la inmobiliaria.",
+        "motivo_contacto": "intento_manipulacion",
+        "urgencia": null,
+        "capacidad_financiera": {
+          "presupuesto_maximo_uf": null,
+          "pie_disponible_uf": null,
+          "credito_preaprobado": null,
+          "subsidio_consultado": null,
+          "ingreso_mensual_clp": null
+        },
+        "requisitos_propiedad": {
+          "dormitorios": null,
+          "unidades": null,
+          "entrega_inmediata": null,
+          "estacionamiento_consultado": null,
+          "bodega_consultada": null
+        },
+        "derivacion_humana": {
+          "requerida": false,
+          "motivo": null,
+          "cita": null
+        },
+        "banderas": [
+          "intento_manipulacion"
+        ],
+        "id": "conv-009",
+        "prioridad": {
+          "nivel": "descartar",
+          "score": 0,
+          "motivos": [
+            "No corresponde a una oportunidad comercial del proyecto"
+          ]
+        },
+        "campos_descartados": [],
+        "meta": {
+          "modelo": "gemini-3.5-flash",
+          "tokens_entrada": 447,
+          "tokens_salida": 1678,
+          "costo_usd": 0.015772500000000002,
+          "latencia_ms": 6655
+        }
+      },
+      {
+        "resumen": "El usuario consulta sobre la disponibilidad de locales comerciales para abrir una cafetería, lo cual está fuera del alcance del proyecto residencial.",
+        "motivo_contacto": "consulta_fuera_de_alcance",
+        "urgencia": null,
+        "capacidad_financiera": {
+          "presupuesto_maximo_uf": null,
+          "pie_disponible_uf": null,
+          "credito_preaprobado": null,
+          "subsidio_consultado": null,
+          "ingreso_mensual_clp": null
+        },
+        "requisitos_propiedad": {
+          "dormitorios": null,
+          "unidades": null,
+          "entrega_inmediata": null,
+          "estacionamiento_consultado": null,
+          "bodega_consultada": null
+        },
+        "derivacion_humana": {
+          "requerida": false,
+          "motivo": null,
+          "cita": null
+        },
+        "banderas": [],
+        "id": "conv-010",
+        "prioridad": {
+          "nivel": "descartar",
+          "score": 0,
+          "motivos": [
+            "No corresponde a una oportunidad comercial del proyecto"
+          ]
+        },
+        "campos_descartados": [],
+        "meta": {
+          "modelo": "gemini-3.5-flash",
+          "tokens_entrada": 442,
+          "tokens_salida": 1688,
+          "costo_usd": 0.015855,
+          "latencia_ms": 6753
+        }
+      }
+    ],
+    "errores": []
+  }
+]
